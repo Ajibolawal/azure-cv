@@ -10,11 +10,12 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   e. Projects Section
+   f. Portfolio Section
+   g. Call To Action Section
+   h. Testimonials Section
+   i. Contact Section
+   j. Footer
 
 ===================================================================== */
 
@@ -179,7 +180,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #0F9095; }
 
 
 /* ------------------------------------------------------------------ */
@@ -277,6 +278,54 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Projects Section
+/* ------------------------------------------------------------------ */
+
+#projects {
+   background: #2B2B2B;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#projects a, #projects a:visited  { color: #fff; }
+#projects a:hover, #projects a:focus { color: #11ABB0; }
+
+#projects h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #fff;
+}
+#projects h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#projects h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+#projects .header-col { padding-top: 9px; }
+#projects .main-col { padding-right: 10%; 
+   color:#7A7A7A }
+
+
+#projects .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #11ABB0;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#projects .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#projects .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -407,7 +456,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* f. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
@@ -578,7 +627,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Call To Action Section
+/* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
@@ -635,7 +684,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* h. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
@@ -784,7 +833,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -921,7 +970,7 @@ call-to-action .button {
 
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
